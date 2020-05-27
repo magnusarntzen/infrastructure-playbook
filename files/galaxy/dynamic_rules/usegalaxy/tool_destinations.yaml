@@ -880,8 +880,8 @@ sam_merge2:
 search_gui:
   cores: 10
   env:
-    _JAVA_OPTIONS: -XX:MaxPermSize=2G -Xmx6G -Xms1G -Djava.io.tmpdir=/data/2/galaxy_db/tmp -Duser.home=/data/2/galaxy_db/tmp
-  mem: 12
+    _JAVA_OPTIONS: -XX:MaxPermSize=2G -Xmx8G -Xms1G -Djava.io.tmpdir=/data/2/galaxy_db/tmp -Duser.home=/data/2/galaxy_db/tmp
+  mem: 15
   name: special
 secretbt2test: {cores: 10, mem: 20}
 segemehl: {mem: 80}
